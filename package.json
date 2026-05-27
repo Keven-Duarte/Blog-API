@@ -6,7 +6,15 @@
   "scripts": {
     "dev": "tsx watch src/server.ts"
   },
-  "keywords": ["blog", "api", "express", "typescript", "prisma", "nodejs", "node"],
+  "keywords": [
+    "blog",
+    "api",
+    "express",
+    "typescript",
+    "prisma",
+    "nodejs",
+    "node"
+  ],
   "author": "Keven Oliveira Duarte",
   "license": "MIT",
   "type": "commonjs",
@@ -22,6 +30,7 @@
     "typescript": "^6.0.3"
   },
   "dependencies": {
+    "@prisma/client": "^6.19.3",
     "bcryptjs": "^3.0.3",
     "body-parser": "^2.2.2",
     "cors": "^2.8.6",
