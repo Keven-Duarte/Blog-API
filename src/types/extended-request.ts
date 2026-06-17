@@ -3,6 +3,6 @@ import { Request } from 'express'
 
 type UserWithoutPassword = Omit<User, 'password'>
 
-export type ExtendRequest = Request & {
+export type ExtendedRequest = Request & {
     user?: UserWithoutPassword;
 }

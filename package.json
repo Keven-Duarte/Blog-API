@@ -1,7 +1,7 @@
 {
   "name": "blogapi",
   "version": "1.0.0",
-  "description": "API de um blog básico",
+  "description": "API de um Blog básico",
   "main": "server.ts",
   "scripts": {
     "dev": "tsx watch src/server.ts"
@@ -12,10 +12,9 @@
     "express",
     "typescript",
     "prisma",
-    "nodejs",
     "node"
   ],
-  "author": "Keven Oliveira Duarte",
+  "author": "Denny Paulista Azevedo Filho",
   "license": "MIT",
   "type": "commonjs",
   "devDependencies": {

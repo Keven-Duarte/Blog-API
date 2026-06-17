@@ -1,5 +1,5 @@
 .env
 node_modules/
 tmp/*
-public/images/covers
+public/images/covers/*
 /prisma/prisma

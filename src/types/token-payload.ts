@@ -1,3 +1,3 @@
 export type TokenPayload = {
-    user_id: string
+    id: string
 }
