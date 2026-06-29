@@ -10,6 +10,7 @@ export const createToken = (user: User) => {
 }
 export const verifyRequest = async (req: Request) => {
     const { authorization } = req.headers
+    console.log(authorization)
     if (authorization) {
         const token = authorization.split(' ')[1]
         if (token) {
